@@ -22,7 +22,9 @@ This is the list I've got together so far:
 
 -----------------------
 
-### Misk project notes
+### Misc project notes
+
+_These are notes I've taken, ordered by `time thought occurred to Josh`, that I'll use to guide myself in building additional resources/drills_
 
 Do this kind of scraping three times total, save outputs to a text file _or_ database. 
 
@@ -35,8 +37,16 @@ Nokogiri will be such a critical effort, I ended up creating this [nokogiri_obst
 
 Almost done with Nokogiri piece.
 
-Extensions:
+##### Potential Extensions
 
 - dealing with feature flags in the real world? https://boringrails.com/articles/feature-flags-simplest-thing-that-could-work/
 - Redis obstacle course? (ties into feature flags)
-- 
+
+##### Sinatra Usage
+
+- [live reloading](https://stackoverflow.com/questions/1247125/how-to-get-sinatra-to-auto-reload-the-file-after-each-change) 
+
+Boot app with `rerun 'ruby app.rb'`
+
+
+
