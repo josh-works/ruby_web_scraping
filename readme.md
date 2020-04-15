@@ -10,16 +10,6 @@ Next, I'll get some basic routing in place with Sinatra, and put it on Heroku.
 
 Should be a cool little thing. 
 
-This is the list I've got together so far:
-
-![links!](/images/links_01.jpg)
-
-
-
-
-
-
-
 -----------------------
 
 ### Misc project notes
@@ -28,14 +18,22 @@ _These are notes I've taken, ordered by `time thought occurred to Josh`, that I'
 
 Do this kind of scraping three times total, save outputs to a text file _or_ database. 
 
+### Tutorials and Guide's _I Have Created_ as a result of this project
+
+#### 1. [Nokogiri obstacle course](https://github.com/josh-works/intermediate_ruby_obstacle_course/tree/master/nokogiri_obstacle_course) 
+
+Nokogiri was such a big part of this, but I had such little knowledge, so I ended up creating this, which will be one of eventually many pieces of `intermediate_ruby`
+
+I used my new Nokogiri knowledge to get this list of links:
+
+![links!](/images/links_01.jpg)
+
+
 link other effort about this: 
 
 https://www.dannysalzman.com/2020/04/08/analyzing-hn-readers-personal-blogs
 
-Nokogiri will be such a critical effort, I ended up creating this [nokogiri_obstacle_course](https://github.com/josh-works/intermediate_ruby_obstacle_course/tree/master/nokogiri_obstacle_course), which will be one of eventually many pieces of `intermediate_ruby`
 
-
-Almost done with Nokogiri piece.
 
 ##### Potential Extensions
 
