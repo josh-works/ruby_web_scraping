@@ -47,6 +47,21 @@ a:hover {
   padding-right: 1em;
 }
 
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.main-header {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: #ffffff;
+	overflow: hidden;
+}
+
+.wrap {
+  min-height: calc(100vh - 150px);
+}
+
 /* Style the footer */
 
 .footer {

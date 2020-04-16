@@ -6,6 +6,7 @@
       <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div class="wrap">
     
     <h2>Discover a somewhat random personal blog</h2>
     
@@ -14,30 +15,31 @@
     <h2>
       <a href="<%= random_url %>" 
           target="_blank" 
-          rel="noreferrer noopener"><%= random_url %></a>
+          rel="noreferrer noopener"><%= random_url %>
+      </a>
     </h2>
     
     <br>
     <p><b>What is this? Where does the link come from again?</b></p>
     <p>Last week I read <a href="https://news.ycombinator.com/item?id=22800136">a post</a> titled:
-        <em>Ask Hacker News: What is your blog and why should I read it?</em>
+      <em>Ask Hacker News: What is your blog and why should I read it?</em>
     </p>
     <p>So many people shared such cool blogs.</p>
     <p>I wanted to visit the these blogs randomly, to discover new people and their websites.</p>
     
     <p>So I built a little tool that does just that. 😁</p>
+    <br>
     <form action="" method="get" id="reload">
     </form>
     <button type="submit" class="button" form="reload" value="Submit">Get Another Blog Post</button>
     <br>
-    <br>
-    <br>
+  </div>
     <footer class="footer">
       <div class="content">
         <p>Made with ❤️ by <a href="https://josh.works/">josh thompson</a></p>
         <a href="https://github.com/josh-works/ruby_web_scraping">Git repo for this little project</a>
         <br>
-    </div>
+      </div>
     </footer>
   </body>
 </html>
