@@ -38,7 +38,7 @@ DEPENDENCIES
   thin
 
 RUBY VERSION
-   ruby 2.4.10p364
+   ruby 2.5.8p224
 
 BUNDLED WITH
    2.1.4
