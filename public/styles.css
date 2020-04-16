@@ -2,7 +2,8 @@
   box-sizing: border-box;
   text-align:
   center;
-  /* border: 2px dotted black; */ /* outline all elements for debugging */
+  /* outline all elements for debugging */
+  /* border: 1px dotted black;  */
 }
 
 html {
@@ -55,10 +56,12 @@ a:hover {
 }
 
 .footer > .content {
+  margin-top: 10px;
   background-color: #f6f6f6;
   text-align: center;
   background: #664E74;
   padding-bottom: 50px;
+  padding-top: 20px;
   color: white;
   font-size: small;
 }
