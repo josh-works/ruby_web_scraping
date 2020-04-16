@@ -2,7 +2,7 @@
   box-sizing: border-box;
   text-align:
   center;
-  border: 2px dotted black;
+  /* border: 2px dotted black; */ /* outline all elements for debugging */
 }
 
 html {
