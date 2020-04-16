@@ -46,5 +46,6 @@ https://www.dannysalzman.com/2020/04/08/analyzing-hn-readers-personal-blogs
 
 Boot app with `rerun 'ruby app.rb'`
 
+[“No Procfile detected” in Sinatra app heroku push](https://stackoverflow.com/questions/24223476/no-procfile-detected-in-sinatra-app-heroku-push)
 
 
