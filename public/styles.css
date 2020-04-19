@@ -25,8 +25,10 @@ html {
   line-height: 1.5;
 }
 
-@media only screen and (min-width: 30em) {
-  html {font-size: 23px;}
+@media screen and (min-width: 30em) {
+  html {
+    font-size: 23px;
+  }
 }
 
 
@@ -90,7 +92,7 @@ a:hover {
 
 /* Style the footer */
 .footer {
-  height: 150px;
+  height: 160px;
   margin-left: -10px;
   margin-right: -10px;
   line-height: .8em
@@ -98,7 +100,7 @@ a:hover {
 }
 
 .push {
-  height: 150px;
+  height: 160px;
 }
 
 .footer {
