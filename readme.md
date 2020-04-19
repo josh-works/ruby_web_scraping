@@ -6,6 +6,10 @@ Get it published online, so you can visit you get a random blog, or random blog 
 
 So far, I've got a web scraper together that scrapes the top-level comments of the above blog post and saves them to `links.txt`.
 
+To visualize, this tool shows links JUST from top-level comments on the above thread:
+
+![top-level comments](/images/show-hn-your-blog-overview.gif)
+
 Next, I'll get some basic routing in place with Sinatra, and put it on Heroku. 
 
 Should be a cool little thing. 
