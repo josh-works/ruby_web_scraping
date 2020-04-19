@@ -4,7 +4,7 @@
   box-sizing: border-box;
   box-sizing: border-box;
   /* outline all elements for debugging */
-  border: 1px dotted black; 
+  /* border: 1px dotted black;  */
 }
 
 html, body {
