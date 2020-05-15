@@ -8,15 +8,6 @@ class Scraper
     @links = links
   end
   
-  
-  # doc.css('table[class="comment-tree"] > tr')     # Nokogiri::XML::NodeSet
-  
-  # doc.css('td[class="ind"] > img[width="0"]').
-  # finding TDs with 0 indent width
-  
-  # doc.css('td[class="ind"] > img[width="0"]').first.parent.parent.css('.commtext').to_a
-  
-  # width="0"]').first.parent.parent.css('.commtext').css('a').to_a
   def zero_indent_rows
     doc.css('td[class="ind"] > img[width="0"]')
   end
