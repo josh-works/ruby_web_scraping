@@ -1,3 +1,5 @@
-require './lib/scraper_saver'
+require 'httparty'
+require 'nokogiri'
+require 'open-uri'
 require './lib/scraper'
 require './lib/writer'
